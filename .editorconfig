@@ -1,0 +1,26 @@
+# Editor configuration, see https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.ts]
+quote_type = single
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+# ---- COMMANDS ----
+# npm run start
+# npm run start:dev
+# nest g controller controllers/order --flat ---> Create controladores
+# nest g s services/products --flat ---> Create services
+# nest g pipe common/parse-int
+# npm i class-validator class-transformer -----> dependencias
+# npm i @nestjs/mapped-types
+# nest g mo <moduleName>
